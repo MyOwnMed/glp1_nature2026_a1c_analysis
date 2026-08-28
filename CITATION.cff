@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "GLP-1 clinical-impact analysis code (Part II)"
+abstract: >-
+  Statistical analysis code for the GLP-1 receptor agonist weight and HbA1c
+  study: cohort construction, persistence-of-therapy censoring, generalized
+  estimating equation trajectory models and Cox proportional hazards
+  time-to-threshold models.
+version: "2.0.0"
+date-released: "2026-08-17"
+license: MIT
+type: software
+repository-code: "https://github.com/MyOwnMed/glp1_nature2026_a1c_analysis"
+authors:
+  - given-names: Edward
+    family-names: Kim
+  - given-names: Richard
+    family-names: Foty
+  - given-names: Avnesh S.
+    family-names: Thakor
+  - given-names: Jay S.
+    family-names: Skyler
+  - given-names: Lucy F.
+    family-names: Robinson
+  - given-names: James D.
+    family-names: Park
+  - given-names: Monica
+    family-names: Kraft
+  - given-names: Charles B.
+    family-names: Cairns
+  - given-names: Vicki
+    family-names: Seyfert-Margolis
+preferred-citation:
+  type: article
+  title: >-
+    Computable longitudinal patient journeys derived from structured and
+    unstructured EHR data: development, validation, and clinical application in
+    GLP-1 receptor agonist therapy
+  journal: "Nature Medicine"
+  year: 2026
+  doi: "REPLACE-WITH-ARTICLE-DOI"
+  authors:
+    - given-names: Edward
+      family-names: Kim
+    - given-names: Richard
+      family-names: Foty
+    - given-names: Avnesh S.
+      family-names: Thakor
+    - given-names: Jay S.
+      family-names: Skyler
+    - given-names: Lucy F.
+      family-names: Robinson
+    - given-names: James D.
+      family-names: Park
+    - given-names: Monica
+      family-names: Kraft
+    - given-names: Charles B.
+      family-names: Cairns
+    - given-names: Vicki
+      family-names: Seyfert-Margolis

@@ -1,0 +1,44 @@
+Code Part II: GLP-1 Clinical Impact Analysis
+Copyright 2026 RespondHealth, Inc.
+
+This product includes software developed at RespondHealth, Inc.
+
+Licensed under the MIT License. See the LICENSE file for the full terms.
+
+------------------------------------------------------------------------------
+SCOPE OF THIS RELEASE
+------------------------------------------------------------------------------
+
+This repository contains the statistical analysis code supporting the
+publication "Computable longitudinal patient journeys derived from structured
+and unstructured EHR data: development, validation, and clinical application in
+GLP-1 receptor agonist therapy" (Nature Medicine, 2026): cohort construction,
+persistence-of-therapy censoring, generalized estimating equation trajectory
+models and Cox proportional hazards time-to-threshold models.
+
+The grant in the LICENSE file covers this code only.
+
+It does not extend to the RespondHealth extraction platform, comprising the
+agentic extraction pipeline, the verification and fine-tuned extraction models,
+and the knowledge graph construction code. That platform is proprietary, is not
+distributed here, and is described in the paper's Code availability statement as
+unavailable for commercial reasons. No part of it is required to read or reuse
+the code in this repository, which consumes a prepared analytic dataset and does
+not call the platform.
+
+It does not extend to the underlying electronic health record data, which are
+licensed from Harris Computer Systems and cannot be redistributed. See the paper's
+Data availability statement for the terms under which de-identified
+individual-level data may be requested.
+
+------------------------------------------------------------------------------
+DATA INCLUDED IN THIS REPOSITORY
+------------------------------------------------------------------------------
+
+None. No patient-level data, aggregate data or intermediate analytic output is
+distributed with this code. The .gitignore is written to keep it that way. The
+code is published so that every analytic decision behind the reported results
+can be read and checked; it cannot be executed against the data reported in the
+paper.
+
+The regression tests in tests/ run standalone and require no study data.

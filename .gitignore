@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Data. The source EHR data are licensed and cannot be redistributed.
+# Nothing matching these patterns may ever be committed.
+# ---------------------------------------------------------------------------
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.sas7bdat
+*.dta
+*.sav
+*.xlsx
+*.xls
+root_data/
+data/
+output/
+outputs/
+
+# ---------------------------------------------------------------------------
+# Generated results and figures
+# ---------------------------------------------------------------------------
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.log
+*.pkl
+*.joblib
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---------------------------------------------------------------------------
+# Credentials. Belt and braces; none are used by this code.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
+secrets.*
